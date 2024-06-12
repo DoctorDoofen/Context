@@ -1,5 +1,6 @@
 function callOnTarget(func, obj1, obj2) {
-  // Your code here 
+  let result = func.bind(obj1, obj2)
+  return result()
 }
 
 
