@@ -14,7 +14,7 @@ class PartyPlanner{
 		else {
 		// 	for(let guest of this.guestList) {
 				for(let i = 0; i < this.guestList.length; i++){
-				return `Welcome to the party` + " " + this.guestList[i]// + " and " + this.guestList[i+1]
+					return `Welcome to the party` + " " + this.guestList.join (' and ');
 			}
 
 		}
